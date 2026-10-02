@@ -1,0 +1,48 @@
+# =============================================================================
+# Sutra (.gitignore)
+# =============================================================================
+
+# --- Personal Reference & Learning Files (Private / Do Not Commit) ---
+learning_tracker.html
+docs/
+.agents/
+
+# --- Python Virtual Environments & Packages ---
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environment & Secret Variables ---
+.env
+.env.*
+!.env.example
+secrets.json
+
+# --- Testing & Quality Tools Cache ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Database & Cache Local Artifacts ---
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# --- OS & Editor Specific Files ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/*
+!.vscode/settings.json
